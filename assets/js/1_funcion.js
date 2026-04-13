@@ -1,13 +1,3 @@
-function operacion(a,b){ 
-    return a + b;
-
+const example = function(a, b, c) {
+    return a + b + c;
 }
-function suma(a,b){
-    return a + b;
-}
-operacion(2,3, suma)
-
-function mostrarResultado(){
-    return operacion(2,3, suma);
-}
-
